@@ -12,11 +12,9 @@ npm run build:plain-minify
 
 # Classes Supported
 
-## Animation
-
-## Animations
-
 ## Background
+
+Background Attachment, Background Clip, Background Color, Background Origin, Background Position , Background Repeat, Background Size, Background Image, Gradient Color Stops
 
 ### Background Attachment
 
