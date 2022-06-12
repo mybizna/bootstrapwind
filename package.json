@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "build": "npx tailwindcss build -i ./src/input.css -o ./dist/output.css",
-    "build:plain": "npx tailwindcss build -i ./src/input.css -o ./dist/output.min.css",
+    "build:plain": "npx tailwindcss build -i ./src/input.css -o ./dist/output.css",
     "build:plain-minify": "npx tailwindcss build -i ./src/input.css -o ./dist/output.min.css --minify",
+    "build": "npm run build:plain && npm run build:plain-minify"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
