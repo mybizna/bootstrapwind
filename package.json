@@ -1,4 +1,6 @@
 {
+  "name": "bootstrapwind",
+  "version": "1.0.0",
   "scripts": {
     "build:plain": "npx tailwindcss build -i ./src/input.css -o ./dist/output.css",
     "build:plain-minify": "npx tailwindcss build -i ./src/input.css -o ./dist/output.min.css --minify",
