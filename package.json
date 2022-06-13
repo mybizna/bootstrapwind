@@ -2,8 +2,8 @@
   "name": "bootstrapwind",
   "version": "1.0.0",
   "scripts": {
-    "build:plain": "npx tailwindcss build -i ./src/input.css -o ./dist/output.css && ./prune.sh",
-    "build:plain-minify": "npx tailwindcss build -i ./src/input.css -o ./dist/output.min.css --minify  && ./prune.sh",
+    "build:plain": "npx tailwindcss build -i ./src/input.css -o ./dist/output.css",
+    "build:plain-minify": "npx tailwindcss build -i ./src/input.css -o ./dist/output.min.css --minify",
     "build": "npm run build:plain && npm run build:plain-minify"
   },
   "devDependencies": {
