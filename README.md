@@ -6,6 +6,8 @@ To add new classes add the name to this README and it will be picked.
 
 # tailwindcss generator
 
+chmod +x prune.sh
+
 npm run build:plain
 or
 npm run build:plain-minify
